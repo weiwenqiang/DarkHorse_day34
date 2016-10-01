@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.day34.MainActivity" >
+
+    <Button
+        android:id="@+id/day34_b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义内容提供者" />
+
+    <Button
+        android:id="@+id/day34_b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取系统短信" />
+
+    <Button
+        android:id="@+id/day34_b3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="备份系统短信" />
+
+    <Button
+        android:id="@+id/day34_b4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="插入系统短信" />
+
+    <Button
+        android:id="@+id/day34_b5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询联系人" />
+
+    <Button
+        android:id="@+id/day34_b6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="插入联系人" />
+
+    <Button
+        android:id="@+id/day34_b7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="内容观察者监听新短信" />
+    
+    <Button
+        android:id="@+id/day34_b8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="内容观察者监听自定义提供者" />
+
+</LinearLayout>
